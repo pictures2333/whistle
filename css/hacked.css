@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: max-content;
+    margin-bottom: 50px;
+}
+.main .content{
+    background-color: white;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.main .infobox{
+    border-top-style: solid;
+    margin: 20px;
+    padding-top: 5px;
+    border-color: gray;
+    border-width: 2px;
+    font-family: sans-serif;
+}
+.main .infobox .card {
+    margin: 0;
+    margin-top: 10px;
+}
+.main .infobox .card .card-body .author{
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.main .infobox .card .card-body .id{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+}
+.main .infobox .date{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+.main .card {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.main .card .infoText {
+    color:gray;
+    font-size: 15px;
+    margin-top: 10px;
+}

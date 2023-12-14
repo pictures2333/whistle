@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pro-title{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.progress {
+    width: 350px;
+    margin-top: 2px;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+.whistle{
+    width: 60%;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.fbk{
+    width: 60%;
+    border-radius: 10px;
+    visibility: hidden;
+    margin-bottom: 50px;
+}
+.whistle-text{
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    visibility: hidden;
+    text-align: center;
+}
+.fbk-text{
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    visibility: hidden;
+    text-align: center;
+}
+.player{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    visibility: hidden;
+}
+
+.alert{
+    width: 350px;
+    margin-top: 10px;
+    visibility: hidden;
+}
+.btn{
+    margin-left: 125px;
+    visibility: hidden;
+}
+.hq{
+    font-size: 18px;
+    text-decoration: underline;
+    color:gray;
+    visibility: hidden;
+}

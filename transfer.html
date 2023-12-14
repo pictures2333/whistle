@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Service</title>
+
+    <meta name="og:title" content="Transfer Service">
+    <meta name="og.description" content="Total: NT$8891 ; Receiver: @Everyoneknows">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/transfer.css">
+</head>
+
+<script>
+    setTimeout(()=>{
+        document.getElementsByClassName("pro-title")[0].innerHTML = ""
+        document.getElementsByClassName("progress")[0].innerHTML = ""
+        document.getElementsByClassName("progress")[0].style.visibility = "hidden"
+        
+        document.getElementsByClassName("alert")[0].style.visibility = "visible"
+        document.getElementsByClassName("btn")[0].style.visibility = "visible"
+    }, 3000)
+
+    function show(){
+        document.getElementsByClassName("card")[0].innerHTML = ""
+        document.getElementsByClassName("card")[0].style.visibility = "hidden"
+        document.getElementsByClassName("alert")[0].style.visibility = "hidden"
+        document.getElementsByClassName("btn")[0].style.visibility = "hidden"
+
+        document.getElementsByClassName("whistle")[0].style.visibility = "visible"
+        document.getElementsByClassName("whistle-text")[0].innerHTML = "Whistle Baby Whistle Baby<br>Let me know"
+        document.getElementsByClassName("whistle-text")[0].style.visibility = "visible"
+        document.getElementsByClassName("hq")[0].style.visibility = "visible"
+        document.getElementsByClassName("fbk")[0].style.visibility = "visible"
+        document.getElementsByClassName("fbk-text")[0].style.visibility = "visible"
+
+        document.getElementsByClassName("player")[0].style.visibility = "visible"
+        document.getElementsByClassName("player")[0].play()
+    }
+</script>
+
+<body>
+    <a class="pro-title">Please wait...</a>
+    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"></div>
+    </div>
+    <div class="card" style="width: 350px;">
+        <div class="card-body">
+          <h5 class="card-title">詳細資料</h5>
+          <p class="card-text">轉帳金額: NT$8891<br>接收者: @Everyoneknows</p>
+        </div>
+    </div>
+    <div class="alert alert-success" role="alert">
+        操作已完成
+        <a class="btn btn-warning" onclick="show()">點擊以確定</a>
+    </div>
+
+    <a class="whistle-text"></a>
+    <img src="static/whistle baby.jpg" class="whistle">
+    <a class="hq" href="static/whistle baby.jpg">高清無碼版本</a>
+
+    <audio class="player" src="static/whistle.mp3" controls></audio>
+
+    <a class="fbk-text">Got you!</a>
+    <img class="fbk" src="static/loli_fubuking.gif">
+</body>
+</html>

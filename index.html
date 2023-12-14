@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index - My little website</title>
+    <meta name="title" content="My little website :>">
+    <meta name="description" content="Welcome to my website. Login to see more content.">
+    <meta name="og:title" content="My little website :>">
+    <meta name="og.description" content="Welcome to my website. Login to see more content.">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<script src="js/main.js"></script>
+
+<body>
+    <div class="loginbox">
+        <a class="boxtitle">Let me see</a>
+        <div class="loginarea">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+    
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required style="margin-bottom:1px;">
+            
+            <div class="forgetpw"><p>Forget Password? <a class="btn" href="#" onclick="showInfo()">Click me</a></p></div>
+            <div class="hint">shirakami fubuki, the cutest fox</div>
+            <div class="register"><p>Don't have an account? <a class="btn" href="#" onclick="showInfo()">Register</a></p></div>
+            
+            <button onclick="login();">Login</button>
+        </div>
+    </div>
+</body>
+</html>
