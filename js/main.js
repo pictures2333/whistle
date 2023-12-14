@@ -7,7 +7,7 @@ function login() {
     username = document.getElementById("username").value 
     password = document.getElementById("password").value
     if (username == "fbk" && password == "thecutestfox") {
-        location.href="/hacker.html"
+        location.href="/whistle/hacker.html"
     }
     else {
         document.getElementsByClassName("hint")[0].innerHTML = "Wrong username / password";
