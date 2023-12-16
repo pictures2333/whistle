@@ -36,6 +36,12 @@ body{
     margin-top: 10px;
     width: 500px;
 }
+.card .infoText {
+    color:gray;
+    font-size: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+}
 
 @media screen and (max-width:700px) {
     .main {
