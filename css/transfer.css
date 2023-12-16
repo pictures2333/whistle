@@ -13,12 +13,13 @@ body{
     margin-top: 100px;
 }
 .progress {
-    width: 350px;
+    width: 500px;
     margin-top: 2px;
 }
 
 .card {
     margin-top: 10px;
+    width: 500px;
 }
 
 .whistle{
@@ -55,12 +56,11 @@ body{
 }
 
 .alert{
-    width: 350px;
+    width: 500px;
     margin-top: 10px;
     visibility: hidden;
 }
 .btn{
-    margin-left: 125px;
     visibility: hidden;
 }
 .hq{
@@ -68,4 +68,58 @@ body{
     text-decoration: underline;
     color:gray;
     visibility: hidden;
+}
+
+@media screen and (max-width:600px) {
+    .progress {
+        width: 300px;
+    }
+    .card {
+        width: 300px;
+    }
+    .alert{
+        width: 300px;
+    }
+
+    .whistle, .fbk{
+        width: 95%;
+    }
+    .whistle-text, .fbk-text {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .progress {
+        width: 300px;
+    }
+    .card {
+        width: 300px;
+    }
+    .alert{
+        width: 300px;
+    }
+
+    .whistle, .fbk{
+        width: 90%;
+    }
+    .whistle-text, .fbk-text {
+        font-size: 30px;
+    }
+}
+
+.footer {
+    font-size: 15px;
+    color: gray;
+    margin-top: 100px;
+}
+.link {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:900px) {
+    .whistle, .fbk{
+        width: 80%;
+    }
 }

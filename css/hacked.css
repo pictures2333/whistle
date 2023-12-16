@@ -11,22 +11,24 @@ body{
     margin-top: 20px;
     background-color: white;
     border-radius: 10px;
-    width: max-content;
+    width: 60%;
     margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-wrap: break-word;
 }
 .main .content{
     background-color: white;
     border-radius: 10px;
     font-family: sans-serif;
     font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 20px;
 }
 
 .main .infobox{
     border-top-style: solid;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-top: 5px;
     border-color: gray;
     border-width: 2px;
@@ -56,11 +58,44 @@ body{
 }
 
 .main .card {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0;
+    width: 100%;
 }
-.main .card .infoText {
-    color:gray;
-    font-size: 15px;
-    margin-top: 10px;
+
+.header {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.header .webtitle{
+    justify-content: left;
+    display: flex;
+    text-decoration: none;
+    color: orange;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.header .path{
+    justify-content: left;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15px;
+    vertical-align: baseline;
+    justify-content: left;
+    background-color: lightcyan;
+}
+
+@media screen and (max-width:700px) {
+    .main {
+        width: 90%;
+    }
+    .header .webtitle {
+        font-size: 30px;
+    }
+    .header .path {
+        font-size: 15px;
+    }
 }
